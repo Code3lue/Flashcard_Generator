@@ -1,18 +1,7 @@
-//var fs = require("fs");
-
-var BasicCard = function(front, back) {
+function Basic(front, back) {
     this.front = front;
-    this.back = back; 
-
-
-
-var firstPresident = new BasicCard(
-    "Who was the fist president of the United States?", "George Washington"
-);
-
+    this.back = back;
 };
-
-
 
 
 module.exports = BasicCard;
